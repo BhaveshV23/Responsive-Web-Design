@@ -1,0 +1,172 @@
+:root {
+  --bg-gradient-start: #667eea;
+  --bg-gradient-end: #764ba2;
+
+  --container-bg: #ffffff;
+  --text-primary: #222222;
+  --text-secondary: #555555;
+
+  --input-bg: #ffffff;
+  --input-border: #cccccc;
+
+  --button-bg: #667eea;
+  --button-hover: #5a67d8;
+  --button-text: #ffffff;
+}
+
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background:var(--container-bg);
+    width:100%;
+    max-width:500px;
+    padding:2rem;
+    border-radius:10px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}
+
+#description{
+    text-align:center;
+    margin-bottom:1.5rem;
+    font-size: 0.95rem;
+    color:var(--text-secondary);
+}
+
+label, p, legend{
+    display:block;
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+legend {
+  font-weight: 600;
+}
+
+.form-group{
+    margin-bottom: 1.2rem;
+}
+
+fieldset {
+  padding: 0;
+  border:none;
+}
+
+.form-group label {
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+
+h1, label, option, legend{
+    color:var(--text-primary);
+}
+
+input, select, textarea{
+    width:100%;
+    padding:0.6rem;
+    border-radius:5px;
+    background: var(--input-bg);
+    border:1px solid var(--input-border);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+textarea{
+    resize:vertical;
+    min-height:100px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width:auto;
+    margin-right:0.4rem;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  border-color: var(--button-bg);
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--button-bg);
+  outline-offset: 2px;
+}
+
+button{
+    width:100%;
+    padding:0.7rem;
+    background:var(--button-bg);
+    color:var(--button-text);
+    border:none;
+    border-radius:5px;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+button:hover{
+    background:var(--button-hover);
+}
+
+body,
+.container,
+input,
+select,
+textarea,
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  button {
+    padding: 0.9rem;
+  }
+} 
+
+@media (prefers-color-scheme: dark){
+    :root {
+    --bg-gradient-start: #1a1a2e;
+    --bg-gradient-end: #16213e;
+
+    --container-bg: #0f172a;
+    --text-primary: #e5e7eb;
+    --text-secondary: #9ca3af;
+
+    --input-bg: #020617;
+    --input-border: #334155;
+
+    --button-bg: #6366f1;
+    --button-hover: #4f46e5;
+    --button-text: #ffffff;
+  }
+}
+
+
+
+
