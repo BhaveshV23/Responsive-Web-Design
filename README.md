@@ -62,7 +62,7 @@ student-feedback-survey/
 
 ---
 
-## Screenshots (Optional)
+## Screenshots 
 
 yaml<img width="1073" height="868" alt="Screenshot 2026-01-16 182615" src="https://github.com/user-attachments/assets/e6fe47a7-6cd0-4377-a846-e0a7b1e91db4" />
 
