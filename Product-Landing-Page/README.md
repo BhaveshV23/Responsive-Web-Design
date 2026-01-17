@@ -58,6 +58,7 @@ Product-Landing-Page/
 ```
 
 ## 🚀 Live Demo
+
 https://bhaveshv23.github.io/Responsive-Web-Design/Product-Landing-Page/
 
 ---
@@ -72,7 +73,7 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Product-Landing-Page/
 
 ---
 
-## 📸 Screenshots (Optional but Recommended)
+## 📸 Screenshots
 
 Add screenshots to improve visual impact:
 
@@ -80,6 +81,7 @@ Add screenshots to improve visual impact:
 
 
 ## 🧠 Learning Outcomes
+
 - Building responsive layouts without JavaScript
 
 - Designing reusable CSS components
