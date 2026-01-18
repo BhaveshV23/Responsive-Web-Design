@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & GitHub Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="layout">
+        <nav class="sidebar" aria-label="Main Documentation">
+            <div class="sidebar-header">
+                <h1 class="doc-title">Git & GitHub</h1>
+                <p class="doc-subtitle">Reference Guide</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#what-is-git">What is Git?</a></li>
+                <li><a href="#what-is-github">What is GitHub?</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#basic-commands">Basic Commands</a></li>
+                <li><a href="#git-workflow">Git Workflow</a></li>
+                <li><a href="#github-workflow">GitHub Workflow</a></li>
+                <li><a href="#branching">Branching & Merging</a></li>
+                <li><a href="#best-practices">Best Practices</a></li>
+            </ul>
+        </nav>
+        
+        <main class="content">
+            <section id="introduction">
+                <article>
+                <h2>Introduction</h2>
+                <p>Git and GitHub are the backbone of modern software engineering. While <strong>Git</strong> handles versioning locally, <strong>GitHub</strong> provides the cloud infrastructure for collaboration.</p>
+                </article>
+            </section>
+
+            <section id="what-is-git">
+                <article>
+                <h2>What is Git?</h2>
+                <p>Git is a distributed version control system (DVCS). Unlike older systems, every developer's computer has a full copy of the project history, making it fast and reliable.</p>
+                </article>
+            </section>
+
+            <section id="what-is-github">
+                <article>
+                    <h2>What is GitHub?</h2>
+                    <p>GitHub is a cloud-based platform that provides hosting for Git repositories,
+                along with collaboration and project management features.</p>
+                </article>
+            </section>
+
+            <section id="installation">
+                <article>
+                <h2>Git Installation</h2>
+                <div class="code-block">
+                    <div class="code-header">Terminal</div>
+                    <pre><code><span class="comment"># Ubuntu / Linux</span>
+sudo apt install git
+
+<span class="comment"># Windows</span>
+<p>Download Git from<a href="https://git-scm.com" target="_blank" rel="noopener">
+https://git-scm.com</a></p><span class="comment"># macOS</span>
+brew install git</code></pre>
+                </div>
+                </article>
+            </section>
+
+            <section id="basic-commands">
+                <article>
+                <h2>Basic Git Commands</h2>
+                <div class="code-block">
+                    <div class="code-header">Terminal</div>
+                    <pre><code>git init                      <span class="comment">// Start a new repo</span>
+git status                    <span class="comment">// Check file states</span>
+git add .                     <span class="comment">// Stage all changes</span>
+git commit -m "feat: login"   <span class="comment">// Save snapshot</span>
+git log --oneline             <span class="comment">// View history</span></code></pre>
+                </div>
+                </article>
+            </section>
+
+            <section id="git-workflow">
+                <article>
+                <h2>Git Workflow</h2>
+                <p>Git operates across three main "areas": the Working Directory, the Staging Area, and the Repository.</p>
+                </article>
+            </section>
+
+            <section id="github-workflow">
+                <article>
+                    <h2>Working with GitHub</h2>
+                    <div class="code-block">
+                    <div class="code-header">Terminal</div>
+                    <pre><code>
+git remote add origin <repository-url>
+git push -u origin main
+                    </code></pre>
+                    </div>
+                </article>
+            </section>
+
+            <section id="branching">
+                <article>
+                    <h2>Branching & Merging</h2>
+                    <div class="code-block">
+                    <div class="code-header">Terminal</div>
+                    <pre><code>
+git branch feature-branch
+git checkout feature-branch
+git merge feature-branch
+                        </code></pre>
+                    </div>
+                </article>
+            </section>
+
+            <section id="best-practices">
+                <article>
+                <h2>Best Practices</h2>
+                <ul class="check-list">
+                    <li><strong>Atomic Commits:</strong> Keep changes small and focused.</li>
+                    <li><strong>Descriptive Messages:</strong> Use the imperative mood (e.g., "Fix bug" not "Fixed bug").</li>
+                    <li><strong>Pull Frequently:</strong> Avoid merge conflicts by staying up to date.</li>
+                </ul>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
