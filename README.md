@@ -120,7 +120,7 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Portfolio-Website/
 **Bhavesh Vadnere**
 
 - GitHub: https://github.com/BhaveshV23  
-- LinkedIn: https://www.linkedin.com/bhavesh-vadnere  
+- LinkedIn: https://www.linkedin.com/in/bhavesh-vadnere  
 - Email: bhaveshvadnere8888@gmail.com  
 
 ---
