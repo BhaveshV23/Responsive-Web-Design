@@ -1,7 +1,12 @@
 # Responsive Web Design
 
+![HTML5](https://img.shields.io/badge/HTML5-Semantic-orange?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-Modern-blue?style=flat&logo=css3)
+![Responsive Design](https://img.shields.io/badge/Responsive-Design-success?style=flat)
+![Dark Mode](https://img.shields.io/badge/Dark%20Mode-CSS--Based-111827?style=flat)
+
 A curated collection of **responsive web design projects** built using **HTML5 and CSS3**.  
-This repository showcases my journey in learning and applying modern web design principles, focusing on **clean layouts, accessibility, and responsiveness**.
+This repository showcases my learning journey and practical application of modern web design principles, with a strong focus on **clean layouts, accessibility, responsiveness, and theming**.
 
 ---
 
@@ -14,6 +19,7 @@ Each project is:
 - Fully responsive across devices
 - Structured using semantic HTML
 - Styled with clean, maintainable CSS
+- Supports **light and dark mode** using CSS variables
 - Deployed using **GitHub Pages**
 
 ---
@@ -28,9 +34,10 @@ A responsive survey form designed to collect student feedback.
 - Clean UI
 - Light & dark theme support
 - Accessible labels and inputs
+- Mobile-first responsive layout
 
 🔗 **Live Demo:**  
-https://bhaveshv23.github.io/Responsive-Web-Design/Student-Feedback-Survey-Form/
+[View project live](https://bhaveshv23.github.io/Responsive-Web-Design/Student-Feedback-Survey-Form/)
 
 📁 **Source Code:**  
 `Student-Feedback-Survey-Form/`
@@ -45,9 +52,10 @@ A modern product landing page designed with a real-world layout structure.
 - Hero section with call-to-action
 - Features, pricing, and CTA sections
 - Responsive grid & flexbox layout
+- 🌗 Light & dark mode support
 
 🔗 **Live Demo:**  
-https://bhaveshv23.github.io/Responsive-Web-Design/Product-Landing-Page/
+[View project live](https://bhaveshv23.github.io/Responsive-Web-Design/Product-Landing-Page/)
 
 📁 **Source Code:**  
 `Product-Landing-Page/`
@@ -62,10 +70,11 @@ A documentation-style page focused on **Git & GitHub**, designed to handle heavy
 - Scrollable main content
 - Code block styling
 - Documentation-style UI
-- Responsive layout
+- Fully responsive layout
+- 🌗 Light & dark mode support
 
 🔗 **Live Demo:**  
-https://bhaveshv23.github.io/Responsive-Web-Design/Technical-Documentation-Page/
+[View project live](https://bhaveshv23.github.io/Responsive-Web-Design/Technical-Documentation-Page/)
 
 📁 **Source Code:**  
 `Technical-Documentation-Page/`
@@ -76,13 +85,14 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Technical-Documentation-Page/
 A personal portfolio website that brings all projects together in one place.
 
 **Key highlights:**
-- Clean and minimal UI
+- Clean, minimal, and professional UI
 - Sections for About, Skills, Projects, Certification, and Contact
-- Responsive layout
-- Project cards with GitHub & Live Demo links
+- Responsive layout across devices
+- Semantic project cards with GitHub & Live Demo links
+- 🌗 Automatic dark mode using CSS variables
 
 🔗 **Live Demo:**  
-https://bhaveshv23.github.io/Responsive-Web-Design/Portfolio-Website/
+[View project live](https://bhaveshv23.github.io/Responsive-Web-Design/Portfolio-Website/)
 
 📁 **Source Code:**  
 `Portfolio-Website/`
@@ -92,7 +102,7 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Portfolio-Website/
 ## 🛠️ Technologies Used
 
 - **HTML5**
-  - Semantic elements
+  - Semantic elements and accessible structure
 - **CSS3**
   - Flexbox
   - CSS Grid
@@ -106,12 +116,12 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Portfolio-Website/
 
 ## 🎯 What This Repository Demonstrates
 
-- Strong understanding of **responsive web design**
-- Ability to structure **real-world layouts**
-- Clean and maintainable CSS practices
-- Accessibility-friendly markup
-- Consistent design systems
-- Project-based learning approach
+- Strong understanding of **responsive web design principles**
+- Ability to structure **real-world frontend layouts**
+- Clean and maintainable **CSS architecture**
+- Consistent use of **semantic and accessible HTML**
+- Implementation of **theme-based UI (light & dark mode)**
+- A project-driven learning approach
 
 ---
 
@@ -119,8 +129,8 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Portfolio-Website/
 
 **Bhavesh Vadnere**
 
-- GitHub: https://github.com/BhaveshV23  
-- LinkedIn: https://www.linkedin.com/in/bhavesh-vadnere  
+- GitHub: [BhaveshV23](https://github.com/BhaveshV23)  
+- LinkedIn: [bhavesh-vadnere](https://www.linkedin.com/in/bhavesh-vadnere)  
 - Email: bhaveshvadnere8888@gmail.com  
 
 ---
