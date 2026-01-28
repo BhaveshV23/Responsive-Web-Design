@@ -50,7 +50,7 @@ student-feedback-survey/
 ---
 
 ## Live Demo
-https://bhaveshv23.github.io/Responsive-Web-Design/Student-Feedback-Survey-Form/
+[View project live](https://bhaveshv23.github.io/Responsive-Web-Design/Student-Feedback-Survey-Form/)
 
 ---
 
@@ -65,7 +65,12 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Student-Feedback-Survey-Form/
 
 ## Screenshots 
 
-yaml<img width="1073" height="868" alt="Screenshot 2026-01-16 182615" src="https://github.com/user-attachments/assets/e6fe47a7-6cd0-4377-a846-e0a7b1e91db4" />
+**Light Mode**
+<img width="1167" height="858" alt="light mode" src="https://github.com/user-attachments/assets/7566817c-5186-4844-a986-9a52cc723b65" />
+
+
+**Dark Mode**
+<img width="1073" height="868" alt="dark mode" src="https://github.com/user-attachments/assets/e6fe47a7-6cd0-4377-a846-e0a7b1e91db4" />
 
 ---
 
@@ -82,6 +87,10 @@ yaml<img width="1073" height="868" alt="Screenshot 2026-01-16 182615" src="https
 ## Author
 
 **Bhavesh Vadnere**  
-- GitHub: https://github.com/BhaveshV23  
-- LinkedIn: https://www.linkedin.com/in/bhavesh-vadnere/
+- GitHub: [BhaveshV23](https://github.com/BhaveshV23)  
+- LinkedIn: [bhavesh-vadnere](https://www.linkedin.com/in/bhavesh-vadnere/)
 - Email: bhaveshvadnere8888@gmail.com
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
