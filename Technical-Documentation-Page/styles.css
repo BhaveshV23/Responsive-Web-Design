@@ -10,6 +10,19 @@
     --border: #e2e8f0;
     --code-bg: #1e293b;
     --code-text: #e2e8f0;
+    --nav-link-hover-bg: rgba(255,255,255,0.05);
+    --comment:#64748b;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --sidebar-bg:#020617;
+        --content-bg: #0f172a;
+        --text-main: #94a3b8;
+        --text-headings: #f8fafc;
+        --border: #1e293b;
+        --code-bg: #000000;
+    }
 }
 
 * {
@@ -25,16 +38,17 @@ html {
 
 body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    line-height: 1.7;
+    line-height: 1.6;
     color: var(--text-main);
     background-color: var(--content-bg);
 }
 
 .layout {
     display: flex;
+    min-height: 100vh;
 }
 
-/* --- Sidebar --- */
+/*Sidebar*/
 .sidebar {
     width: 280px;
     background: var(--sidebar-bg);
@@ -44,6 +58,8 @@ body {
     top: 0;
     height: 100vh;
     overflow-y: auto;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    z-index: 10;
 }
 
 .sidebar-header {
@@ -54,7 +70,7 @@ body {
 
 
 .doc-title {
-    color: white;
+    color: #fff;
     font-size: 2rem;
     margin-bottom: 0.25rem;
 }
@@ -83,7 +99,7 @@ body {
 }
 
 .nav-links a:hover {
-    background: rgba(255,255,255,0.05);
+    background: var(--nav-link-hover-bg);
     color: var(--sidebar-active);
 }
 
@@ -94,10 +110,10 @@ body {
 }
 
 
-/* --- Main Content --- */
+/*Main Content*/
 .content {
     flex: 1;
-    max-width: 900px;
+    max-width: 850px;
     padding: 4rem 3rem;
     margin: 0 auto;
 }
@@ -126,16 +142,17 @@ p {
     margin-bottom: 1.25rem;
 }
 
-/* --- Code Styling --- */
+/*Code Styling*/
 .code-block {
     background: var(--code-bg);
     border-radius: 8px;
+    border: 1px solid var(--border);
     overflow: hidden;
     margin: 1.5rem 0;
 }
 
 .code-header {
-    background: rgba(255,255,255,0.05);
+    background: var(--nav-link-hover-bg);
     padding: 0.5rem 1rem;
     font-size: 0.75rem;
     color: var(--sidebar-text);
@@ -151,7 +168,7 @@ pre {
 }
 
 .comment {
-    color: #64748b;
+    color: var(--comment);
     font-style: italic;
 }
 
@@ -163,14 +180,14 @@ pre {
 }
 
 .check-list li::before {
-    content: "✓";
+    content: "→";
     position: absolute;
     left: 0;
     color: var(--accent);
     font-weight: bold;
 }
 
-/* --- Responsive --- */
+/*Responsive*/
 @media (max-width: 768px) {
     .layout {
         flex-direction: column;
