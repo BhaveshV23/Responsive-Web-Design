@@ -27,6 +27,7 @@ The landing page showcases the product features, pricing plans, and call-to-acti
 - ♿ **Accessibility-Friendly**
   - Focus-visible styles
   - Semantic HTML structure
+  - High contrast for readability in both light and dark themes
 - 🧩 **Reusable Components**
   - Buttons
   - Cards
@@ -42,7 +43,7 @@ The landing page showcases the product features, pricing plans, and call-to-acti
   - Flexbox
   - CSS Grid
   - CSS Variables
-  - Media Queries
+  - Media Queries (including prefers-color-scheme and prefers-reduced-motion)
   - Transitions & Hover Effects
 
 ---
@@ -59,7 +60,7 @@ Product-Landing-Page/
 
 ## 🚀 Live Demo
 
-https://bhaveshv23.github.io/Responsive-Web-Design/Product-Landing-Page/
+[View project live](https://bhaveshv23.github.io/Responsive-Web-Design/Product-Landing-Page/)
 
 ---
 
@@ -74,10 +75,11 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Product-Landing-Page/
 ---
 
 ## 📸 Screenshots
+**Light Mode**
+<img width="1681" height="848" alt="Light Mode Screenshot" src="https://github.com/user-attachments/assets/e845dcb8-328b-418c-96d5-8bb664a06437" />
 
-Add screenshots to improve visual impact:
-
-<img width="1681" height="848" alt="image" src="https://github.com/user-attachments/assets/e845dcb8-328b-418c-96d5-8bb664a06437" />
+**Dark Mode**
+<img width="1697" height="864" alt="Dark Mode Screenshot" src="https://github.com/user-attachments/assets/1b7486f0-aab2-4f02-92ff-3cd8b108dec5" />
 
 
 ## 🧠 Learning Outcomes
@@ -95,9 +97,9 @@ Add screenshots to improve visual impact:
 ## 👤 Author
 **Bhavesh Vadnere**
 
-GitHub: https://github.com/BhaveshV23
+GitHub: [BhaveshV23](https://github.com/BhaveshV23)
 
-LinkedIn: https://www.linkedin.com/in/bhavesh-vadnere/
+LinkedIn: [bhavesh-vadnere](https://www.linkedin.com/in/bhavesh-vadnere/)
 
 ## 📄 License
 
