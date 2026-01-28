@@ -1,7 +1,7 @@
 # Git & GitHub Technical Documentation Page
 
 A comprehensive **Git & GitHub documentation website** built using **HTML5 and CSS3**.  
-This project focuses on presenting **heavy technical content** in a clean, readable, and responsive documentation-style layout.
+This project focuses on presenting **heavy technical content** in a clean, readable, and responsive documentation-style layout with modern Dark Mode support.
 
 ---
 
@@ -13,12 +13,14 @@ It is designed to resemble real-world developer documentation with a fixed sideb
 The project was built to:
 - Strengthen understanding of Git & GitHub
 - Practice structuring information-heavy pages
-- Demonstrate strong HTML & CSS fundamentals
+- Implement modern CSS features like system-aware theming and custom variables.
 
 ---
 
 ## ✨ Features
 
+- 🌓 Adaptive Dark Mode
+  - Automatically switches based on user system preferences using prefers-color-scheme.
 - 📚 **Documentation-Style Layout**
   - Sticky sidebar navigation
   - Scrollable main content
@@ -78,7 +80,7 @@ Technical-Documentation-Page/
 
 ## 🚀 Live Demo
 
-https://bhaveshv23.github.io/Responsive-Web-Design/Technical-Documentation-Page/ 
+[View the Project Live](https://bhaveshv23.github.io/Responsive-Web-Design/Technical-Documentation-Page/)
 
 ---
 
@@ -93,7 +95,16 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Technical-Documentation-Page/
 ---
 
 ## 📸 Screenshots 
+
+**Light Mode**
+
 <img width="1899" height="834" alt="image" src="https://github.com/user-attachments/assets/0b74091a-b438-4424-901c-763b973d8d75" />
+
+
+**Dark Mode**
+
+<img width="1805" height="841" alt="image" src="https://github.com/user-attachments/assets/ee559fae-9290-43f6-9079-221721df9c8c" />
+
 
 ## 🧠 Learning Outcomes
 
@@ -110,8 +121,8 @@ https://bhaveshv23.github.io/Responsive-Web-Design/Technical-Documentation-Page/
 
 **Bhavesh Vadnere**
 
-GitHub: https://github.com/BhaveshV23
+GitHub: [BhaveshV23](https://github.com/BhaveshV23)
 
-LinkedIn: https://linkedin.com/in/bhavesh-vadnere/
+LinkedIn: [bhavesh-vadnere](https://linkedin.com/in/bhavesh-vadnere/)
 
 Email: bhaveshvadnere8888@gmail.com
